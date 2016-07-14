@@ -1,3 +1,3 @@
-FROM dustise/lamp:0.3
+FROM dustise/lamp:latest
 COPY prepare.sh /usr/local/bin
 RUN /usr/local/bin/prepare.sh
